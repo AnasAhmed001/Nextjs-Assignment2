@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Header{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: aqua;
+  list-style: none;
+  padding: 20px 10px;
+}
+
+.herhead{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.Footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+  padding: 20px 10px;
+  margin-top: 25%;
+}
+
+.hero{
+  display: flex;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.abouthead{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.aboutcont{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: 20px 40px;
+  align-items: center;
+
+}
+
+.contacthead{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.contactcont{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: 20px 40px;
+  align-items: center;
+}
